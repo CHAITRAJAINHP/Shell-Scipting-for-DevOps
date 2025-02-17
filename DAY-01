@@ -1,0 +1,30 @@
+LINUX OS
+A  Applications
+S  shell
+K  Kernel
+
+linus : steve bourne ; (sh)  /bin/sh
+
+bourne again shell bash ---/bin/bash
+csh,ksh,fishp
+
+
+vim hello.txt
+:wq -- write and quit (save)
+:qa--quit without saving -0
+
+vim hello.sh
+shebang ---#!/bin/bash  #comment
+
+executable  user group others
+chmod 777 /754--change permission 
+./hello.sh 
+
+
+------------
+
+#!/bin/bash
+
+# This is script for SHELL
+
+echo "Welcome to shell scripting"

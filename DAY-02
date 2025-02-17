@@ -45,3 +45,33 @@ fi
 
 chmod 755 ./sh
 
+
+-----LOOPS-----
+
+vim for_loop.sh
+
+#!/bin/bash
+
+#This is for and while loop
+
+for ((num=1 ; num<=5; num++))
+do
+    mkdir "demo$num"
+done
+
+chmod 755 for_loop.sh
+
+
+---while---
+
+#!/bin/bash
+
+num=0
+while [[ $num -le 5 ]]
+do 
+  echo "hey"
+  num =num+1
+done
+
+
+----functions------

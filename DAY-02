@@ -1,1 +1,47 @@
+variables, arguments, conditionals -if else elif, loops:for while, functions
+
+----FIRST.sh----
+
+#!/bin/bash
+#this is shell scripting
+<< comment
+it is a 
+multi line
+comment 
+
+name="chai"
+
+echo "Name is $name and date is $(date)"
+
+echo "eneter the name"
+read username
+echo "you entered $username "
+
+sudo useradd -m $username
+echo "New user added"
+
+
+#to check cat /etc/passwd
+$0 $1 $2
+
+
+____conditions____
+
+if else
+
+#!/bin/bash
+
+read -p "Enter the name : " name
+read -p "user %" percent
+if [[ $name == "chai jain" ]];
+then
+  echo "user is chaitra"
+elif [[percent -ge 100]]
+then 
+   echo "Its a valid user"
+else
+  echo "user is not chaitra"
+fi 
+
+chmod 755 ./sh
 
